@@ -1,0 +1,263 @@
+body{
+    background-color: #D5D5D5;
+    font-family: system-ui;
+}
+
+.container{
+    background-color: #7289da;
+    width: 1000px;
+    max-width: 100%;
+    margin:auto;
+    padding: 50px;
+    box-shadow: 0 10px 50px #858585;
+    display: grid;
+    grid-template-columns: 25% 70%;
+    column-gap: 5%;
+    row-gap: 30px;
+}
+
+.block{ /* Cái này là khung bao quanh cái info Location với DOB nè*/
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+.avatar img{
+    width: 170px;
+    height: 170px; 
+    border-radius: 50%;
+    object-fit: cover;
+}
+.avatar{
+    display: flex;
+    justify-content: center;
+}
+
+.name{
+    padding-left: 30px;
+    border-left: 1px solid #000;
+}
+
+.name h1{
+    font-weight: 300;
+    font-size: xxx-large;
+    margin: 0 0 5px;
+    font-style: normal;
+    color: white;
+}
+
+.name .specialize{
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #424549;
+}
+
+.name .contact{
+    padding: 0;
+    list-style: none;
+    color: white;
+}
+
+.name .contact span{
+    display: inline-block;
+    background-color: #424549;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: small;
+    margin-right: 20px;
+}
+
+.name .contact li{
+    padding: 5px 0;
+    transform: translate(-40px);
+    background-color: #7289da;
+}
+
+.info ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
+.highlight{
+    font-weight: bold;
+    color: #424549;
+}
+
+.intro{
+    padding-left: 30px;
+    border-left: 1px solid #000;
+    text-align: justify;
+    color: white;
+}
+
+h2{
+    border-top: 1px dotted #000;
+    padding: 0;
+    margin: 0 0 20px;
+    color: #1e2124;
+}
+
+.exp{
+    padding-left: 30px;
+    border-left: 1px solid #000;
+    text-align: justify;
+    color: white;
+}
+.exp h4{
+    margin: 20px 0 10px;
+    color:#282b30;
+}
+.exp .item .des ul{
+    list-style-type: square;
+    color: black;
+}
+.exp h4::before{
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    background-color: #000;
+    content: "";
+    border-radius: 50%;
+    left: -37px;
+    bottom: 3px;
+}
+.exp h4{
+    position: relative;
+}
+
+
+.skills{
+    color: white;
+}
+.skills ul{
+    list-style: none;
+}
+
+.education{
+    padding-left: 30px;
+    text-align: justify;
+    border-left: 1px solid #000;
+    color: white;
+}
+.education h4{
+    color: #282b30;
+}
+.education .item .des ul{
+    list-style-type: square;
+    color: black;
+}
+.project .web{
+    color: yellow;
+    padding: 10px 0;
+}
+.education h4{
+    position: relative;
+}
+
+.education h4::before{
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    background-color: #000;
+    content: "";
+    border-radius: 50%;
+    left: -37px;
+    bottom: 3px;
+}
+
+.education h4{
+    margin: 20px 0 10px;
+}
+
+.container .name .contact .fa-envelope{
+    font-size: 30px;
+    color: #000;
+}
+.container .name .contact .fa-envelope:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.container .name .contact .fa-square-facebook{
+    font-size: 32px;
+    color: #000;
+}
+.container .name .contact .fa-square-facebook:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+.container .info .HCMC{
+    color: rgb(116, 233, 122);
+}
+.container .info .HCMC:hover{
+    cursor: pointer;
+    color: #a5e6ff;
+}
+
+p{
+    color: white;
+}
+
+.interests{
+    color: white;
+}
+
+.project{
+    padding-left: 30px;
+    border-left: 1px solid #000;
+    text-align: justify;
+    color: white;
+}
+.project h4{
+    margin: 20px 0 10px;
+    color:#282b30;
+}
+.project .item .des ul{
+    list-style-type: square;
+    color: black;
+}
+.project h4::before{
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    background-color: #000;
+    content: "";
+    border-radius: 50%;
+    left: -37px;
+    bottom: 3px;
+}
+.project h4{
+    position: relative;
+}
+
+.next-section{
+    position:fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.fa-circle-arrow-right{
+    margin-left: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #7289da;
+}
+.fa-circle-arrow-right:hover{
+    color: #000;
+}

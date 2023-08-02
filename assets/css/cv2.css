@@ -1,0 +1,112 @@
+body{
+    background-color: #D5D5D5;
+    font-family: system-ui;
+}
+.container{
+    background-color: #7289da;
+    width: 1000px;
+    max-width: 100%;
+    margin:auto;
+    padding: 50px;
+    box-shadow: 0 10px 50px #858585;
+    display: grid;
+    grid-template-columns: 1fr; /* Cái này ko chia làm 2 cột như trang cv1 nữa mà chỉ còn 1 cột thoai :> */
+    row-gap: 30px;
+}
+
+.container .extracurricular .item .des .pictures{
+    display: block;
+    margin: auto;
+    max-width: 70%;
+    min-width: none;
+}
+.icon{
+    width: 35px;
+}
+.container .extracurricular .item .des{
+    color: white;
+    font-size:x-large;
+}
+h2{
+    font-size: 35px;
+    text-align: justify;
+}
+h4{
+    font-size: 25px;
+}
+
+.item{
+    padding-left: 30px;
+    text-align: justify;
+    color: white;
+}
+.extracurricular h4{
+    margin: 20px 0 10px;
+    color:#282b30;
+}
+.extracurricular .item .des ul{
+    list-style-type: square;
+    color: green;
+}
+.extracurricular h4::before{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: green;
+    content: "";
+    border-radius: 50%;
+    left: -37px;
+    bottom: 8px;
+}
+.extracurricular h4{
+    position: relative;
+}
+
+
+
+.back-section{
+    position:fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+.fa-circle-arrow-left{
+    margin-right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #7289da;
+}
+.fa-circle-arrow-left:hover{
+    color: #000;
+}
+
+.next-section{
+    position:fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.fa-circle-arrow-right{
+    margin-left: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #7289da;
+}
+.fa-circle-arrow-right:hover{
+    color: #000;
+}
